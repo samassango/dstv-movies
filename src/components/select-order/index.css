@@ -1,0 +1,26 @@
+/* .App {
+  display: grid;
+  grid-template-columns: auto;
+} */
+
+.App .App-intro {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 2rem;
+  background-color: #f1f1f1;
+  /* padding: 20px; */
+  text-align: center;
+}
+
+.App .App-intro .order-by-button > button {
+  background-color: rgb(99, 11, 240); /* blue */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin: 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 0.5rem;
+}
