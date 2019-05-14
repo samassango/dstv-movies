@@ -10,6 +10,7 @@ import MoviesList from "../movie-list";
 import SelectOrder from "../select-order";
 
 import { sortMovies } from "../../utils";
+
 interface IStateMoviesProps {
   loadMovies: () => void;
   movies: any;
@@ -62,7 +63,7 @@ class Home extends React.Component<IStateMoviesProps, ILocalMoviesState> {
               <MoviesList moviesList={this.state.moviesItem} />
             </div>
           )}
-        <div>{this.props.isLoading === true && <p>Movies Loading...</p>}</div>
+        <div>{this.props.isLoading === true && <h4>Movies Loading...</h4>}</div>
       </div>
     );
   }

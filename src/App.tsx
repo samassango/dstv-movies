@@ -13,7 +13,7 @@ class App extends React.Component {
       <Router>
         <div className="App">
           <p className="App-intro">
-            <Route path="/" component={Home} />
+            <Route exact={true} path="/" component={Home} />
             <Route path="/movie/:id" component={Movie} />
           </p>
         </div>
@@ -28,3 +28,4 @@ export default App;
 // <h1 className="App-title">Recommended Movies</h1>
 // </header>
 // <Home />
+//

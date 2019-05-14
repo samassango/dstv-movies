@@ -26,11 +26,11 @@ export interface IStateMovies {
 }
 
 export interface IMoviePoster {
-  id: number;
-  type: string;
-  rank: number;
-  synopsis: string;
-  title: string;
-  imageUrl: string;
-  releaseDate: number;
+  id?: number;
+  type?: string;
+  rank?: number;
+  synopsis?: string;
+  title?: string;
+  imageUrl?: string;
+  releaseDate?: number;
 }

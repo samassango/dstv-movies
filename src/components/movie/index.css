@@ -1,0 +1,8 @@
+.container .close-button {
+  text-decoration: none;
+  background-color: rgb(163, 163, 170);
+  color: rgb(238, 242, 247);
+  text-shadow: 1rem;
+  padding: 5px;
+  font-family: "Times New Roman", Times, serif;
+}
