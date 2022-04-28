@@ -7,7 +7,7 @@
     "@types/react-router-dom": "^4.3.3",
     "@types/redux": "^3.6.0",
     "@types/redux-logger": "^3.0.7",
-    "cross-fetch": "^3.0.2",
+    "cross-fetch": "^3.1.5",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-redux": "^7.0.3",
